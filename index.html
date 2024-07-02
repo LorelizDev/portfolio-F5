@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Silvia Acosta-Portfolio</title>
+</head>
+<body>
+    <nav>
+        <input class="menu-check" type="checkbox" name="menu-hamb" id="menu-hamb">
+        <label for="menu-hamb" class="menu-button closed-menu"><i class="fa-solid fa-bars"></i></label>
+        <label for="menu-hamb" class="menu-button opened-menu"><i class="fa-solid fa-xmark"></i></label>
+        <ul class="menu">
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#projects">PROYECTOS</a></li>
+            <li><a href="#about">SOBRE MI</a></li>
+            <li><a href="#contact">CONECTEMOS</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>DESARROLLADORA WEB <br> FULLSTACK</h1>
+        <hr>
+        <div class="banner">
+            <img class="profile-photo" src="assets\img\photo_silvia.png" alt="imagen de perfil">
+            <div class="text-banner">
+                <h2>SILVIA LORENA <br> ACOSTA ORTIZ</h2>
+                <p>Desarrolladora web full stack apasionada, especializada en la creación de sitios web innovadores y soluciones tecnológicas eficientes.</p>
+            </div>
+        </div>
+        <hr>
+        <section class="projects" id="projects">
+            <h2>PROYECTOS</h2>
+            <div class="container-cards">
+                <div class="card-project">
+                    <img class="img-project" src="/assets/img/project1.png" alt="">
+                    <p class="project-description">
+                        Comanda Click es una aplicación web diseñada para simplificar y agilizar el proceso de pedidos en restaurantes. Además, los clientes tienen la opción de solicitar su cuenta por separado y elegir su método de pago preferido, lo que mejora su experiencia.
+                        <a href="https://github.com/LorelizDev/s13-19-m-python" target="_blank" rel="noopener noreferrer">Repositorio del proyecto</a>
+                    </p>
+                </div>
+                <div class="card-project">
+                    <img class="img-project" src="/assets/img/project2.png" alt="">
+                    <p class="project-description">
+                        No Store Behind es una aplicación web dedicada a micro-empresas, abordando la gestión eficiente del inventario y optimizando la experiencia del cliente durante la compra en línea. Con funciones específicas para propietarios de tiendas, como agregar, actualizar y eliminar productos.
+                        <a href="https://github.com/LorelizDev/c15-45-ft-python-react" target="_blank" rel="noopener noreferrer">Repositorio del proyecto</a>
+                    </p>
+                </div>
+                <div class="card-project">
+                    <img class="img-project" src="/assets/img/project3.png" alt="">
+                    <p class="project-description">
+                        Sitio web completo, desarrollado utilizando el framework Django. El sitio web combina características esenciales como una página de blog, una sección de contacto, una tienda en línea con carrito de compra y un backend integral para gestionar y administrar la plataforma.
+                        <a href="https://github.com/LorelizDev/proyectoWeb-PI" target="_blank" rel="noopener noreferrer">Repositorio del proyecto</a>
+                    </p>
+                </div>
+                <div class="card-project">
+                    <img class="img-project" src="/assets/img/project4.png" alt="">
+                    <p class="project-description">
+                        Sitio web con funcionalidades CRUD desarrollado en equipo durante el curso Full Stack - Python de codo a codo 4.0, Argentina, desarrollado con Bootstrap y Flask. Además, utilizamos GIT durante el desarrollo del proyecto para el control de versiones.
+                        <a href="https://github.com/LorelizDev/TIF-wiki-GOT" target="_blank" rel="noopener noreferrer">Repositorio del proyecto</a>
+                    </p>
+                </div>
+                <div class="card-project">
+                    <img class="img-project" src="/assets/img/project5.png" alt="">
+                    <p class="project-description">
+                        Reloj con diferentes funcionalidades, tales como alarma, cronómetro, temporizador, reloj mundial y clima incorporado, all-in-one. El reloj fue desarrollado en python con interfaz gráfica diseñada con la librería tkinter.
+                        <a href="https://github.com/LorelizDev/reloj_digital" target="_blank" rel="noopener noreferrer">Repositorio del proyecto</a>
+                    </p>
+                </div>
+                <div class="card-project">
+                    <img class="img-project" src="/assets/img/project6.png" alt="">
+                    <p class="project-description">
+                        Calculadora desarrollada utilizando la biblioteca tkinter de Python. La calculadora cuenta con una interfaz gráfica de usuario donde los usuarios pueden realizar operaciones matemáticas de manera interactiva.
+                        <a href="https://github.com/LorelizDev/calculadora_python" target="_blank" rel="noopener noreferrer">Repositorio del proyecto</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="about" id="about">
+            <div class="text-about">
+                <h2>SOBRE MÍ</h2>
+                <p>
+                    Soy desarrolladora full stack con experiencia en Python, Django, Pandas, Numpy, HTML, CSS, JS y Git. He trabajado con frameworks como React y Node.js, desarrollando aplicaciones web y proyectos de ciencia de datos, lo que me ha permitido adquirir una comprensión profunda de todo el ciclo de desarrollo.
+                    <br><br>
+                    Realicé el bootcamp Full Stack con Factoria F5 y Fundación Orange, donde desarrollé un proyecto para Orange Digital Center y adquirí experiencia en trabajo en equipo en un entorno real. Me encanta resolver problemas complejos y aprender nuevas tecnologías, buscando siempre oportunidades para innovar y crecer profesionalmente en un entorno dinámico y desafiante. Estoy entusiasmada por contribuir con mi conocimiento y habilidades en un equipo apasionado por la tecnología.
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section class="contact" id="contact">
+            <h2>CONECTEMOS</h2>
+            <form class="contact-form" action="" method="post">
+                <label for=""> Nombre
+                </label>
+                <input type="text">
+                <label for=""> Correo electrónico
+                </label>
+                <input type="email">
+                <label for=""> Mensaje
+                </label>
+                <textarea name="message" id="message" rows="6"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© Derechos de autor, 2024</p>
+        <div class="rrss">
+            <a href="https://www.linkedin.com/in/silvia-lorena-acosta-ortiz/" target="_blank">
+                <i class="fa-brands fa-linkedin" style="color: #910a67;"></i>
+            </a>
+            <a href="https://github.com/LorelizDev" target="_blank">
+                <i class="fa-brands fa-github" style="color: #910a67;"></i>
+            </a>
+        </div>
+        <a href="mailto:loreliz.dev@gmail.com">loreliz.dev@gmail.com</a>
+    </footer>
+    <script src="https://kit.fontawesome.com/2cf1b682c5.js" crossorigin="anonymous"></script>
+</body>
+</html>
