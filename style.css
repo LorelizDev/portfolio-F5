@@ -126,7 +126,7 @@ section {
     transition: 0.5s;
 }
 
-.card-project:hover {
+.card-project:hover, button:hover {
     transform: scale(1.1);
     box-shadow: 0 0 15px #910A67;
     transition: 0.5s;
@@ -147,6 +147,7 @@ section {
     height: 50%;
     margin-top: 1.5rem;
     text-align: center;
+    row-gap: 20px;
 }
 
 .project-description a {
@@ -178,6 +179,8 @@ input, textarea {
     border: 1px solid #910A67;
     border-radius: 15px;
     margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    padding-left: 5px;
 }
 
 .contact-form input {
@@ -195,6 +198,21 @@ button {
     font-family: 'Jura', monospace;
     margin: 16px auto;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.fa-house {
+    position: fixed;
+    bottom: 2.75rem;
+    right: 1rem;
+    font-size: 2.25rem;
+    transition: 0.5s;
+    z-index: 99;
+}
+
+.fa-house:hover, .fa-brands:hover {
+    transform: scale(1.4);
+    transition: 0.5s;
 }
 
 footer {
@@ -209,11 +227,11 @@ footer {
 
 .rrss a {
     font-size: 2.25rem;
-    text-decoration: none;
 }
 
 footer a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 @media (768px <= width < 1024px) {
@@ -338,8 +356,8 @@ footer a {
     }
 
     .card-project {
-        width: 200px;
-        height: 550px;
+        width: 75%;
+        height: 100%;
     }
 
     footer {
