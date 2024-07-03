@@ -20,13 +20,18 @@ nav {
     background-color: #22222B;
     position: sticky;
     top: 0;
-    width: 100%;
     height: 3.5rem;
     z-index: 999;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 10px;
 }
 
 .menu-check, .menu-button {
     display: none;
+    margin: 0 10px;
 }
 
 .menu {
@@ -283,13 +288,14 @@ footer a {
     .menu-check:checked ~ .menu {
         display: flex;
         flex-direction: column;
-        background-color: #22222bdd;
+        background-color: #22222bf6;
         height: 12.5rem;
         width: 12rem;
-        align-items: baseline;
-        padding-left: 20px;
+        align-items: end;
+        padding-right: 20px;
         position: absolute;
         margin-top: 3.5rem;
+        right: 0;
     }
 
     .menu {
