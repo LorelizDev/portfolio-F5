@@ -262,15 +262,9 @@ footer a {
 }
 
 @media (width < 768px) {
-    .menu {
-        display: none;
-        font-size: 1.25rem;
-    }
-
     .menu-button {
         font-size: 2rem;
         align-self: center;
-        padding-left: 20px;
     }
 
     .closed-menu {
@@ -285,7 +279,7 @@ footer a {
         display: inline-block;
     }
 
-    .menu-check:checked ~ .menu {
+    .menu {
         display: flex;
         flex-direction: column;
         background-color: #22222bf6;
@@ -294,12 +288,18 @@ footer a {
         align-items: end;
         padding-right: 20px;
         position: absolute;
-        margin-top: 3.5rem;
         right: 0;
+        font-size: 1.25rem;
+        font-weight: bold;
+        top: -300px;
+        transition: 1s ease-in;
+        z-index: -1;
     }
 
-    .menu {
-        font-weight: bold;
+    .menu-check:checked ~ .menu {
+        margin-top: 3.5rem;
+        top:0;
+        transition: 1s ease-out;
     }
 
     h1  {
