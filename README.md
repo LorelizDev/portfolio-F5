@@ -12,8 +12,9 @@ El diseño inicial del portfolio fue realizado por [Wilder Aguilar](https://gith
 [Diseño en Figma](https://www.figma.com/design/gK2AUPv0fmHjFGH87TyTc2/PROYECTO-1---PORTAFOLIO-LORENA-ACOSTA.wa?node-id=605-443&t=aosgvEFGwo149B4v-1)
 
 ## Tecnologías Utilizadas
-* HTML5
-* CSS3
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ## Estructura del Proyecto
 
