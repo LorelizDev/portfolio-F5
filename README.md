@@ -57,5 +57,5 @@ Para cualquier consulta, puedes contactarme a través de:
 * [LinkedIn](https://github.com/LorelizDev](https://www.linkedin.com/in/silvia-lorena-acosta-ortiz/))
 
 
-![Logo](assets\img\logo-LorelizDev.png)
+![Logo](assets/img/logo-LorelizDev.png)
 
