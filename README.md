@@ -7,7 +7,7 @@ El portfolio es una página web que presenta mi perfil profesional, incluyendo u
 
 ## Diseño Original
 
-El diseño inicial del portfolio fue realizado por [Wilder Aguilar](https://github.com/Wilder-Aguilar) en **Figma**. Aquí puedes ver una vista previa del diseño: [Diseño en Figma](https://www.figma.com/design/gK2AUPv0fmHjFGH87TyTc2/PROYECTO-1---PORTAFOLIO-LORENA-ACOSTA.wa?node-id=605-443&t=aosgvEFGwo149B4v-1)
+El diseño inicial del portfolio fue realizado por [Wilder Aguilar](https://github.com/Wilder-Aguilar) en **Figma**. Aquí puedes ver una vista previa del diseño: [Diseño en Figma](https://www.figma.com/design/HsFjmsyrXtilqOm38Ou0Rd/Portfolio-Lorena?node-id=0-1&t=fql4mahA1Xmw38RD-1)
 
 <div align="center">
     <h3>Versión Desktop // Versión Mobile</h3>
