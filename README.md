@@ -7,9 +7,13 @@ El portfolio es una página web que presenta mi perfil profesional, incluyendo u
 
 ## Diseño Original
 
-El diseño inicial del portfolio fue realizado por [Wilder Aguilar](https://github.com/Wilder-Aguilar) en **Figma**. Aquí puedes ver una vista previa del diseño:
+El diseño inicial del portfolio fue realizado por [Wilder Aguilar](https://github.com/Wilder-Aguilar) en **Figma**. Aquí puedes ver una vista previa del diseño: [Diseño en Figma](https://www.figma.com/design/gK2AUPv0fmHjFGH87TyTc2/PROYECTO-1---PORTAFOLIO-LORENA-ACOSTA.wa?node-id=605-443&t=aosgvEFGwo149B4v-1)
 
-[Diseño en Figma](https://www.figma.com/design/gK2AUPv0fmHjFGH87TyTc2/PROYECTO-1---PORTAFOLIO-LORENA-ACOSTA.wa?node-id=605-443&t=aosgvEFGwo149B4v-1)
+<div align="center">
+    <h3>Versión Desktop // Versión Mobile</h3>
+    <img src="assets/img/figma_desktop_design.png" alt="Diseño Figma - Versión Desktop" height="600"/>
+    <img src="assets/img/figma_mobile_design.png" alt="Diseño Figma - Versión Desktop" height="600"/>
+</div>
 
 ## Tecnologías Utilizadas
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -30,9 +34,7 @@ portfolio-F5/
 
 ## Demo
 
-Puedes ver el portfolio en funcionamiento en el siguiente enlace:
-
-[Portfolio LorelizDev](https://lorelizdev.github.io/portfolio-F5/)
+Puedes ver el portfolio en funcionamiento en el siguiente enlace: **[Portfolio LorelizDev](https://lorelizdev.github.io/portfolio-F5/)**
 
 ## Instalación y Uso
 
@@ -57,6 +59,4 @@ Para cualquier consulta, puedes contactarme a través de:
 * [GitHub](https://github.com/LorelizDev)
 * [LinkedIn](https://github.com/LorelizDev](https://www.linkedin.com/in/silvia-lorena-acosta-ortiz/))
 
-
-![Logo](assets/img/logo-LorelizDev.png)
-
+<img src="assets/img/logo-LorelizDev.png" alt="Diseño Figma - Versión Desktop" width="150"/>
