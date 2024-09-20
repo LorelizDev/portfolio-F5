@@ -57,6 +57,6 @@ Para cualquier consulta, puedes contactarme a través de:
 
 * [Correo electrónico](mailto:loreliz.dev@gmail.com)
 * [GitHub](https://github.com/LorelizDev)
-* [LinkedIn](https://github.com/LorelizDev](https://www.linkedin.com/in/silvia-lorena-acosta-ortiz/))
+* [LinkedIn](https://www.linkedin.com/in/silvia-lorena-acosta-ortiz/)
 
 <img src="assets/img/logo-LorelizDev.png" alt="Diseño Figma - Versión Desktop" width="150"/>
